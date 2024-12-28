@@ -2,13 +2,6 @@
 import pyautogui
 import time
 from AppKit import NSWorkspace
-from Quartz.CoreGraphics import (
-    CGEventCreateKeyboardEvent,
-    kCGEventKeyDown,
-    kCGEventKeyUp,
-    CGEventPost,
-    CGEventSourceCreate,
-)
 
 # Configuration
 target_app = "Roblox"
