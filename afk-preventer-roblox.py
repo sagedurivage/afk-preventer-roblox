@@ -32,3 +32,22 @@ try:
 except KeyboardInterrupt:
     print("Script stopped.")
 
+
+# ---------- Bonus Implementation of an alternate Auto-Clicking Function ---------- #
+# # Focus the target application once
+# if focus_window(target_app):
+#     print(f"Application {target_app} focused. Starting loop.")
+# else:
+#     print(f"Failed to find or focus {target_app}. Exiting.")
+#     exit(1)
+
+# print("Mouse click script running. Press Ctrl+C to stop.")
+# try:
+#     while True:
+#         # Perform a mouse click
+#         pyautogui.click()
+#         print("Mouse clicked.")
+#         time.sleep(interval)  # Wait for the specified interval
+# except KeyboardInterrupt:
+#     print("Script stopped.")
+
